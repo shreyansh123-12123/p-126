@@ -1,0 +1,69 @@
+body{
+    background-size: cover;
+}
+.heading{
+   font-size: 40px;
+   width: 100%;
+   font-family: 'Dancing Script', cursive;
+   background-color: orange;
+   color: whitesmoke;
+   margin: 5px;
+   box-shadow: 10px 10px 10px red;
+}
+
+.note{
+    font-size: 30px;
+    color:blue;
+    font-family: 'Dancing Script', cursive;
+}
+.div_speed{
+    float: left;
+}
+.div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed{
+    font-size: 25px;
+    margin: 15px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.div_volume{
+    float: right;
+}
+.div_volume_img{
+    width: 200px;
+    border-radius:100px;
+}
+#volume{
+    font-size: 25px;
+    margin: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+.button_play{
+   width: 150px; 
+   font-size: 25px;
+   font-family: 'Dancing Script', cursive;
+}
+canvas{
+    border: 5px solid whitesmoke;
+    
+}
+.animate-charcter{
+    text-transform: uppercase;
+     background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+     background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+     background-clip: text;
+     text-fill-color: transparent;
+     -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+       animation: textclip 2s linear infinite;
+     display: inline-block;
+     font-size: 25px;
+
+}
+@keyframes textclip { to { background-position: 200% center; } }
